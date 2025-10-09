@@ -1,0 +1,28 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=300, stale-while-revalidate=600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/streams/(.*)",
+      "destination": "https://iptv-org.github.io/iptv/$1"
+    }
+  ]
+}

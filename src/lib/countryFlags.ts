@@ -1,0 +1,95 @@
+// Country code to flag emoji mapping
+export const countryFlags: { [key: string]: string } = {
+  // Americas
+  us: "🇺🇸", ca: "🇨🇦", mx: "🇲🇽", br: "🇧🇷", ar: "🇦🇷",
+  cl: "🇨🇱", co: "🇨🇴", pe: "🇵🇪", ve: "🇻🇪", ec: "🇪🇨",
+  bo: "🇧🇴", py: "🇵🇾", uy: "🇺🇾", cr: "🇨🇷", pa: "🇵🇦",
+  cu: "🇨🇺", do: "🇩🇴", ht: "🇭🇹", jm: "🇯🇲", tt: "🇹🇹",
+  bs: "🇧🇸", bb: "🇧🇧", gy: "🇬🇾", sr: "🇸🇷", bz: "🇧🇿",
+  gt: "🇬🇹", hn: "🇭🇳", sv: "🇸🇻", ni: "🇳🇮", pr: "🇵🇷",
+  gf: "🇬🇫", ag: "🇦🇬", kn: "🇰🇳", lc: "🇱🇨", vc: "🇻🇨",
+  dm: "🇩🇲", gd: "🇬🇩", aw: "🇦🇼", cw: "🇨🇼", sx: "🇸🇽",
+  bq: "🇧🇶", mq: "🇲🇶", gp: "🇬🇵", ai: "🇦🇮", ky: "🇰🇾",
+  tc: "🇹🇨", vg: "🇻🇬", vi: "🇻🇮", bm: "🇧🇲", ms: "🇲🇸",
+  
+  // Europe
+  gb: "🇬🇧", de: "🇩🇪", fr: "🇫🇷", es: "🇪🇸", it: "🇮🇹",
+  nl: "🇳🇱", be: "🇧🇪", se: "🇸🇪", no: "🇳🇴", dk: "🇩🇰",
+  fi: "🇫🇮", pl: "🇵🇱", ru: "🇷🇺", ua: "🇺🇦", ro: "🇷🇴",
+  cz: "🇨🇿", hu: "🇭🇺", at: "🇦🇹", ch: "🇨🇭", gr: "🇬🇷",
+  pt: "🇵🇹", ie: "🇮🇪", hr: "🇭🇷", rs: "🇷🇸", bg: "🇧🇬",
+  sk: "🇸🇰", si: "🇸🇮", lt: "🇱🇹", lv: "🇱🇻", ee: "🇪🇪",
+  by: "🇧🇾", md: "🇲🇩", al: "🇦🇱", mk: "🇲🇰", ba: "🇧🇦",
+  me: "🇲🇪", xk: "🇽🇰", is: "🇮🇸", lu: "🇱🇺", mt: "🇲🇹",
+  cy: "🇨🇾", li: "🇱🇮", mc: "🇲🇨", ad: "🇦🇩", sm: "🇸🇲",
+  va: "🇻🇦",
+  
+  // Asia
+  cn: "🇨🇳", in: "🇮🇳", jp: "🇯🇵", kr: "🇰🇷", th: "🇹🇭",
+  sg: "🇸🇬", my: "🇲🇾", id: "🇮🇩", ph: "🇵🇭", vn: "🇻🇳",
+  kh: "🇰🇭", la: "🇱🇦", mm: "🇲🇲", bd: "🇧🇩", pk: "🇵🇰",
+  lk: "🇱🇰", np: "🇳🇵", af: "🇦🇫", ir: "🇮🇷", iq: "🇮🇶",
+  sy: "🇸🇾", jo: "🇯🇴", lb: "🇱🇧", il: "🇮🇱", ps: "🇵🇸",
+  kw: "🇰🇼", om: "🇴🇲", qa: "🇶🇦", bh: "🇧🇭", ye: "🇾🇪",
+  kz: "🇰🇿", uz: "🇺🇿", kg: "🇰🇬", tj: "🇹🇯", tm: "🇹🇲",
+  mn: "🇲🇳", tw: "🇹🇼", hk: "🇭🇰", mo: "🇲🇴", kp: "🇰🇵",
+  bt: "🇧🇹", mv: "🇲🇻",
+  
+  // Middle East
+  tr: "🇹🇷", sa: "🇸🇦", ae: "🇦🇪", eg: "🇪🇬",
+  
+  // Africa
+  za: "🇿🇦", ng: "🇳🇬", ke: "🇰🇪", gh: "🇬🇭", et: "🇪🇹",
+  tz: "🇹🇿", ug: "🇺🇬", dz: "🇩🇿", ma: "🇲🇦", tn: "🇹🇳",
+  ly: "🇱🇾", sd: "🇸🇩", sn: "🇸🇳", ci: "🇨🇮", cm: "🇨🇲",
+  ao: "🇦🇴", mz: "🇲🇿", mg: "🇲🇬", bw: "🇧🇼", na: "🇳🇦",
+  zm: "🇿🇲", zw: "🇿🇼", mw: "🇲🇼", ml: "🇲🇱", bf: "🇧🇫",
+  ne: "🇳🇪", td: "🇹🇩", so: "🇸🇴", rw: "🇷🇼", bi: "🇧🇮",
+  cg: "🇨🇬", cd: "🇨🇩", ga: "🇬🇦", gq: "🇬🇶", gm: "🇬🇲",
+  gn: "🇬🇳", lr: "🇱🇷", sl: "🇸🇱", tg: "🇹🇬", bj: "🇧🇯",
+  mr: "🇲🇷", mu: "🇲🇺", er: "🇪🇷", dj: "🇩🇯", km: "🇰🇲",
+  cv: "🇨🇻", cf: "🇨🇫",
+  
+  // Oceania
+  au: "🇦🇺", nz: "🇳🇿", pg: "🇵🇬", fj: "🇫🇯",
+  ws: "🇼🇸", pf: "🇵🇫", gu: "🇬🇺", fo: "🇫🇴",
+};
+
+// Helper function to get flag by country code
+export function getFlagByCountryCode(countryCode: string): string {
+  return countryFlags[countryCode.toLowerCase()] || "🏳️";
+}
+
+// Category icons mapping
+export const categoryIcons: { [key: string]: string } = {
+  news: "📰",
+  entertainment: "🎭",
+  religious: "🙏",
+  music: "🎵",
+  movies: "🎬",
+  sports: "⚽",
+  kids: "👶",
+  series: "📺",
+  education: "📚",
+  culture: "🏛️",
+  documentary: "📖",
+  lifestyle: "🍳",
+  comedy: "😂",
+  shop: "🛍️",
+  animation: "🎨",
+  family: "👨‍👩‍👧‍👦",
+  business: "💼",
+  outdoor: "🏕️",
+  travel: "✈️",
+  classic: "🎭",
+  cooking: "👨‍🍳",
+  science: "🔬",
+  auto: "🚗",
+  weather: "🌤️",
+  general: "📺",
+};
+
+// Helper function to get icon by category
+export function getIconByCategory(category: string): string {
+  return categoryIcons[category.toLowerCase()] || "📺";
+}
